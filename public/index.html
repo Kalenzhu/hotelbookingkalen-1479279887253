@@ -7,9 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
   </head>
 
   <body>
+    <div ng-app="">
+ 	<p>名字 : <input type="text" ng-model="name"></p>
+ 	<h1>Hello {{name}}</h1>
+</div>
     <table>
       <tr>
         <td style= "width:30%;">
