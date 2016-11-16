@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: hotelbookingkalen
+  host: hotelbookingkalen
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-ze
+  - availability-monitoring-auto
