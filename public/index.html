@@ -7,11 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/style.css">
-    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    
+
+    <script src="http://ngnice.com/lib/angular/1.2.16/angular.js"></script>
+   
   </head>
 
   <body>
-   <div ng-app="">
+   <div ng-app="angular">
  	<p>名字 : <input type="text" ng-model="name"></p>
       <h1><span>Hello {{name]}}</span></h1>
       <span ng-bind="name"></span>
