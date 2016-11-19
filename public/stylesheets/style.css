@@ -31,7 +31,14 @@ h1 {
 	font-weight: bold;
 	font-size: 2em;
 }
-
+.button2
+{
+	font-size: 2em;
+	float: left;
+	background-color: #26343f;
+	width: 45%;
+	height: 100%;
+}
 .leftHalf {
 	float: left;
 	background-color: #26343f;
